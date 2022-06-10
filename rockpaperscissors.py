@@ -1,10 +1,10 @@
 player1_score = 0  # I wanted to keep score so added variable, need to use while loop for these variables to be useful
 player2_score = 0
 while player1_score != 3 and player2_score != 3:
-    # had issue with while loop not working because I kept setting conditions that were true so it kept running
+    # had issue with while loop not working because I kept setting conditions that were true so, it kept running
     # while loop runs until it is false so needed to do opposite
-    player1 = input("Rock, Paper or Scissors: ").lower() # added user input and .lower so it would not be case-sensitive
-    player2 = input("Rock, Paper or Scissors: ").lower()
+    player1 = input("YOU ARE PLAYER1! Please Choose Rock, Paper or Scissors: ").lower() # added user input and .lower so it would not be case-sensitive
+    player2 = input("YOU ARE PLAYER2! Please Choose Rock, Paper or Scissors: ").lower()
 
     if player1 == "rock" and player2 == "scissors":
         player1_score += 1
